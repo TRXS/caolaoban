@@ -1,0 +1,345 @@
+int led = 13;
+void setup() {
+  pinMode(led,OUTPUT);
+}
+
+
+//œ‘ æduan µ„
+void morseDot(){
+ 
+    digitalWrite(led,HIGH);
+    delay(100);
+    digitalWrite(led,LOW);
+    delay(100);
+  
+}
+//œ‘ æchang ∆∆’€∫≈
+void morseDash(){
+  
+    digitalWrite(led,HIGH);
+    delay(1000);
+    digitalWrite(led,LOW);
+    delay(1000);
+  
+}
+
+
+
+void GetChar(char tmpChar)
+{
+  switch (tmpChar) {
+    case 'a':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case 'b':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case 'c':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case 'd':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case 'e':
+    morseDot();
+    delay(100);
+    break;
+
+     case 'f':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case 'g':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case 'h':
+     for(int i=1;i<=4;i++)
+    morseDot();
+    delay(100);
+   
+    break;
+
+     case 'i':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case 'j':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case 'k':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case 'l':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    morseDot();
+    delay(100);
+    morseDot();
+    delay(100);
+    break;
+
+
+     case 'm':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case 'n':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case 'o':
+    for(int i=1;i<=3;i++){
+        morseDash();
+        delay(100);
+    }
+    break;
+
+     case 'p':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case 'q':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+
+     case 'r':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case 's':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+    case 't':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case 'u':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case 'v':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case 'w':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case 'x':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case 'y':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case 'z':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case '1':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+
+     case '2':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case '3':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case '4':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case '5':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case '6':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case '7':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+
+     case '8':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case '9':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+     case '0':
+    morseDot();
+    delay(100);
+    morseDash();
+    delay(100);
+    break;
+
+ 
+
+    default:
+       break;
+  }
+}
+
+
+
+void loop()
+{
+  
+
+
+
+/*
+char str[] = "hello";
+short int na[sizeof(str) + 1];
+
+memcpy(na, str, sizeof(str));
+printf("%s", na);
+
+
+
+  for(int i=0;i<=7;i++){
+    
+    GetChar(na);
+    
+    }*/
+
+      GetChar('h'); 
+      GetChar('e');
+      GetChar('l');
+      GetChar('l');
+      GetChar('o');
+      GetChar('w');
+   
+
+}
